@@ -100,26 +100,26 @@ const Contact = () => {
                   {
                     icon: Mail,
                     label: "Email",
-                    value: "kaif.qureshi01@gmail.com",
+                    value: "kaifqureshi.pr@gmail.com",
                     link: "mailto:kaif.qureshi01@gmail.com",
                   },
-                  {
-                    icon: Phone,
-                    label: "Phone",
-                    value: "+91 453998570",
-                    link: "tel:+91453998570",
-                  },
+                  // {
+                  //   icon: Phone,
+                  //   label: "Phone",
+                  //   value: "+91 453998570",
+                  //   link: "tel:+91453998570",
+                  // },
                   {
                     icon: MapPin,
                     label: "Location",
                     value: "Mumbai, Maharashtra, India",
                   },
-                  {
-                    icon: Globe,
-                    label: "Portfolio",
-                    value: "kaif-portfolio-vercel.app",
-                    link: "https://kaif-portfolio-vercel.app",
-                  },
+                  // {
+                  //   icon: Globe,
+                  //   label: "Portfolio",
+                  //   value: "kaif-portfolio-vercel.app",
+                  //   link: "https://kaif-portfolio-vercel.app",
+                  // },
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center group">
                     <div className="p-3 rounded-full bg-primary/10 group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 mr-4">
