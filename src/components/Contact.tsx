@@ -2,12 +2,10 @@
 
 import {
   Mail,
-  Phone,
   MapPin,
   Github,
   Linkedin,
   Send,
-  Globe,
 } from "lucide-react";
 import { Card } from "./ui/card";
 import { Badge } from "./ui/badge";
