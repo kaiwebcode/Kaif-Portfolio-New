@@ -1,11 +1,6 @@
 "use client";
 
-import {
-  Github,
-  ExternalLink,
-  Calendar,
-  ArrowUpRight,
-} from "lucide-react";
+import { Github, ExternalLink, Calendar, ArrowUpRight } from "lucide-react";
 import erosProjectImg from "../../public/assets/Ero.io.png";
 import shoeKaiProjectImg from "../../public/assets/Kai-shoe-ecom.png";
 import kaiElearningProjectImg from "../../public/assets/Kai-Elearning.png";
@@ -21,7 +16,14 @@ const Projects = () => {
       title: "Ero.io Full-stack Web App",
       description:
         "A real-time collaborative whiteboard application with multi-user cursor rendering, drawing tools, snapping features, and smart alignment guides.",
-      technologies: ["Next.js", "Convex", "Liveblocks", "Clerk", "Tailwind"],
+      technologies: [
+        "Next.js",
+        "Shadcn",
+        "Convex",
+        "Liveblocks",
+        "Clerk",
+        "Tailwind",
+      ],
       year: "2024-2025",
       type: "Real-time Collaboration",
       image: erosProjectImg,
@@ -39,7 +41,17 @@ const Projects = () => {
       title: "Kai-Ecommerce-Shoes",
       description:
         "A scalable e-commerce platform featuring secure authentication, payment processing, and optimized performance.",
-      technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Stripe"],
+      technologies: [
+        "Next.js",
+        "Shadcn",
+        "TypeScript",
+        "Prisma",
+        "PostgreSQL",
+        "Redis",
+        "Uploadthing",
+        "Kinde",
+        "Stripe",
+      ],
       year: "2025",
       type: "E-commerce Platform",
       image: shoeKaiProjectImg,
@@ -57,7 +69,23 @@ const Projects = () => {
       title: "Kai E-learning LMS (Learning Management System) ",
       description:
         "A Learning Management System with role-based dashboards, interactive course tracking, and secure video streaming.",
-      technologies: ["React", "Next.js", "Prisma", "PostgreSQL", "VdoCipher"],
+      technologies: [
+        "React",
+        "Next.js",
+        "Express",
+        "Node.js",
+        "NextAuth.js",
+        "shadcn",
+        "Cloudinary",
+        "SMTP",
+        "Stripe",
+        "Redis",
+        "Vercel for frntd",
+        "Socket.io",
+        "Render for Bknd",
+        "Mongod",
+        "VdoCipher",
+      ],
       year: "2025",
       type: "Learning Management",
       image: kaiElearningProjectImg,
@@ -75,7 +103,17 @@ const Projects = () => {
       title: "Kai-Social-Media web App",
       description:
         "A full-featured social media platform with Instagram-like functionality, real-time chat, and advanced media management.",
-      technologies: ["React", "Socket.io", "Cloudinary", "Custom Auth"],
+      technologies: [
+        "React",
+        "Mui chakra",
+        "Javascript",
+        "Express",
+        "Node.js",
+        "Mongodb",
+        "Socket.io",
+        "Cloudinary",
+        "Custom Auth",
+      ],
       year: "2024",
       type: "Social Platform",
       image: kaiSocialProjectImg,
@@ -255,7 +293,9 @@ const Projects = () => {
             variant="outline"
             size="lg"
             className="hover-lift group"
-            onClick={() => window.open("https://github.com/kaiwebcode", "_blank")}
+            onClick={() =>
+              window.open("https://github.com/kaiwebcode", "_blank")
+            }
           >
             <Github className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
             View All Projects on GitHub

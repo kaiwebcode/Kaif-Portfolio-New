@@ -264,7 +264,7 @@ const Contact = () => {
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     required
-                    placeholder="Tell me about your project or ideas..."
+                    placeholder="Message me here, For a contact..."
                     className="min-h-[120px]"
                   />
                 </div>
