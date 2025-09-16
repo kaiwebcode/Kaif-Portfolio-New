@@ -1,12 +1,6 @@
 "use client";
 
-import {
-  Github,
-  Linkedin,
-  Mail,
-  ChevronDown,
-  Download,
-} from "lucide-react";
+import { Github, Linkedin, Mail, ChevronDown, Download } from "lucide-react";
 
 import { Button } from "./ui/button";
 import { motion } from "framer-motion";
@@ -25,7 +19,7 @@ const Hero = () => {
 
   const handleDownloadCV = () => {
     // Ensure file is inside /public
-    window.open("/Resume(kaif.q).pdf", "_blank");
+    window.open("/(Kaif.q) Resume.pdf", "_blank");
   };
 
   return (

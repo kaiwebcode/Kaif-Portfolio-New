@@ -85,7 +85,7 @@ const Contact = () => {
           {/* Left - Contact Info */}
           <motion.div
             className="space-y-8"
-            initial={{ opacity: 0, x: -40 }}
+            initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
@@ -192,7 +192,7 @@ const Contact = () => {
 
           {/* Right - Contact Form */}
           <motion.div
-            initial={{ opacity: 0, x: 40 }}
+            initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >

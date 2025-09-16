@@ -54,7 +54,7 @@ const Navigation = () => {
   };
 
   const handleDownloadCV = () => {
-    window.open("/Resume(kaif.q).pdf", "_blank");
+    window.open("/(Kaif.q) Resume.pdf", "_blank");
   };
 
   return (
@@ -175,7 +175,9 @@ const Navigation = () => {
                     <Button
                       variant="ghost"
                       size="sm"
-                      onClick={() => window.open("https://github.com", "_blank")}
+                      onClick={() =>
+                        window.open("https://github.com", "_blank")
+                      }
                       className="hover:bg-white/10"
                     >
                       <Github className="h-5 w-5" />
