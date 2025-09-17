@@ -99,7 +99,7 @@ const Contact = () => {
                     icon: Mail,
                     label: "Email",
                     value: "kaifqureshi.pr@gmail.com",
-                    link: "mailto:kaif.qureshi01@gmail.com",
+                    link: "mailto:kaifqureshi.pr@gmail.com",
                   },
                   // {
                   //   icon: Phone,
@@ -149,17 +149,17 @@ const Contact = () => {
                 {[
                   {
                     icon: Github,
-                    link: "https://github.com/kaifqureshi",
+                    link: "https://github.com/kaiwebcode",
                     label: "GitHub",
                   },
                   {
                     icon: Linkedin,
-                    link: "https://linkedin.com/in/kaifqureshi",
+                    link: "https://www.linkedin.com/in/kaif-qureshi-06b5782a7",
                     label: "LinkedIn",
                   },
                   {
                     icon: Mail,
-                    link: "mailto:kaif.qureshi01@gmail.com",
+                    link: "mailto:kaifqureshi.pr@gmail.com",
                     label: "Email",
                   },
                 ].map((item, idx) => (
